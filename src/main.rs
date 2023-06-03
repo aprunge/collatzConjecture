@@ -8,7 +8,7 @@ fn collatz(mut num: i32) -> u32 {
             num = (num * 3) + 1;
             steps += 1;
         }
-    }  
+    } 
     return steps;
 }
 
